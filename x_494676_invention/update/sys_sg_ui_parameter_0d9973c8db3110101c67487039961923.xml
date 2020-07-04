@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (invention)">c59933c8db3110101c674870399619f0</button>
+        <button_parent_table>x_494676_invention_invention</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>source_field</default_value_type>
+        <field_name>number_2</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>text</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Number 2</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field>number_2</source_field>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 01:09:54</sys_created_on>
+        <sys_id>0d9973c8db3110101c67487039961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Number 2</sys_name>
+        <sys_package display_value="invention" source="x_494676_invention">cb4fa304db3110101c674870399619e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="invention">cb4fa304db3110101c674870399619e7</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_0d9973c8db3110101c67487039961923</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 01:09:54</sys_updated_on>
+        <table_name>x_494676_invention_invention</table_name>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d9973c8db3110101c67487039961923"/>
+</record_update>

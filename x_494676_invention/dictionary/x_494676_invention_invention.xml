@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="invention" max_length="40" name="x_494676_invention_invention" sizeclass="2" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="2500" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Ideal Type" max_length="40" name="ideal_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cost saving" value="cost_saving"/>
+                <element inactive_on_update="false" label="Process improvement" value="process_improvement"/>
+                <element inactive_on_update="false" label="Team building" value="team_building"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number 2" max_length="40" name="number_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="125" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approver" max_length="40" name="u_approver" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="rejected"/>
+                <element inactive_on_update="false" label="On-Hold" sequence="2" value="on-hold"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Cost" max_length="20" name="u_cost" type="currency"/>
+        <element label="Ideal Implement" max_length="40" name="u_ideal_implement" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="implement date" max_length="40" name="u_implement_date" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Inventor" max_length="32" name="u_invention" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Inventor" max_length="40" name="u_inventor" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Ideal implementation" max_length="40" name="u_string_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_2" type="string"/>
+        <index name="index">
+            <element name="u_invention"/>
+        </index>
+    </element>
+</database>

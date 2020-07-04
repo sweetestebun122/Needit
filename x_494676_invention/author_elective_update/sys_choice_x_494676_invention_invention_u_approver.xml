@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_approver" table="x_494676_invention_invention" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_494676_invention_invention</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-02 01:09:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61cc8e3cdb3110101c67487039961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-02 01:09:59</sys_updated_on>
+            <value>approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_494676_invention_invention</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-02 01:09:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65cc8e3cdb3110101c67487039961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-02 01:09:59</sys_updated_on>
+            <value>rejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approver</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On-Hold</label>
+            <language>en</language>
+            <name>x_494676_invention_invention</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-02 01:09:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1cc8e3cdb3110101c67487039961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-02 01:09:59</sys_updated_on>
+            <value>on-hold</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_approver</element>
+            <name>x_494676_invention_invention</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-02 01:09:59</sys_created_on>
+            <sys_id>e9cc8e3cdb3110101c67487039961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_approver</sys_name>
+            <sys_package display_value="invention" source="x_494676_invention">cb4fa304db3110101c674870399619e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="invention">cb4fa304db3110101c674870399619e7</sys_scope>
+            <sys_update_name>sys_choice_x_494676_invention_invention_u_approver</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-02 01:09:59</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

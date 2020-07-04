@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="description" label="Description" language="en" table="x_494676_invention_invention">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <help/>
+            <hint/>
+            <label>Description</label>
+            <language>en</language>
+            <name>x_494676_invention_invention</name>
+            <plural>Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-30 01:06:29</sys_created_on>
+            <sys_id>83c87788db3110101c674870399619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Description</sys_name>
+            <sys_package display_value="invention" source="x_494676_invention">cb4fa304db3110101c674870399619e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="invention">cb4fa304db3110101c674870399619e7</sys_scope>
+            <sys_update_name>sys_documentation_x_494676_invention_invention_description_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-30 01:06:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

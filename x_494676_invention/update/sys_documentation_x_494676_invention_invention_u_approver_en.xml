@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_approver" label="Approver" language="en" table="x_494676_invention_invention">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_approver</element>
+            <help/>
+            <hint/>
+            <label>Approver</label>
+            <language>en</language>
+            <name>x_494676_invention_invention</name>
+            <plural>Approvers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-02 01:09:58</sys_created_on>
+            <sys_id>5dcc8e3cdb3110101c67487039961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Approver</sys_name>
+            <sys_package display_value="invention" source="x_494676_invention">cb4fa304db3110101c674870399619e7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="invention">cb4fa304db3110101c674870399619e7</sys_scope>
+            <sys_update_name>sys_documentation_x_494676_invention_invention_u_approver_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-02 01:09:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
